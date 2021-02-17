@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.4](https://github.com/macchiitaka/eslint-config/compare/v0.0.3...v0.0.4) (2021-02-17)
+
+
+### Bug Fixes
+
+* **jsx-a11y:** disable no-autofocus ([9520fe0](https://github.com/macchiitaka/eslint-config/commit/9520fe0f21f1511dc74e26787b684aaa6cf359b6))
+* **typescript:** fix some rules ([95ca229](https://github.com/macchiitaka/eslint-config/commit/95ca2293d7ed4e847ad6e56f8a207d06ab194a4e))
+* **unicorn:** disable prevent-abbreviations ([c97aa32](https://github.com/macchiitaka/eslint-config/commit/c97aa320e29d5633679a33d25f6513d6420fd198))
+
 ### [0.0.3](https://github.com/macchiitaka/eslint-config/compare/v0.0.2...v0.0.3) (2021-02-17)
 
 
