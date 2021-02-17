@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.6](https://github.com/macchiitaka/eslint-config/compare/v0.0.5...v0.0.6) (2021-02-17)
+
+
+### Bug Fixes
+
+* **typescript:** fix no-empty-function ([4f31fa7](https://github.com/macchiitaka/eslint-config/commit/4f31fa775a22b85d557217d85ecf8440f9814141))
+
 ### [0.0.5](https://github.com/macchiitaka/eslint-config/compare/v0.0.4...v0.0.5) (2021-02-17)
 
 
