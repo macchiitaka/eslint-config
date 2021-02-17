@@ -22,12 +22,10 @@
   "main": "index.js",
   "scripts": {
     "fmt": "run-p fmt:**",
-    "fmt:js": "run-s fmt:js:eslint fmt:js:prettier",
-    "fmt:js:eslint": "eslint **/*.js --fix --cache",
-    "fmt:js:prettier": "prettier --write --tab-width 2 '**/*.js'",
-    "fmt:json": "prettier --write --tab-width 2 '**/*.json'",
-    "fmt:md": "prettier --write --tab-width 2 '**/*.md'",
+    "fmt:eslint": "eslint **/*.js --fix --cache",
     "fmt:package-json": "sort-package-json",
+    "fmt:pretier:json": "prettier --write --tab-width 2 '**/*.json'",
+    "fmt:pretier:md": "prettier --write --tab-width 2 '**/*.md'",
     "lint": "run-p lint:**",
     "lint:eslint": "eslint **/*.js --cache",
     "test": "echo \"Error: no test specified\" && exit 1"
