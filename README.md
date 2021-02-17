@@ -102,6 +102,18 @@ module.exports = {
     - `@takamachi/eslint-config/presets/none`
     - `@takamachi/eslint-config/presets/typescript`
 
+## TypeScript Support
+
+Please set `parserOptions.project` in `.eslintrc.js`. This option allows you to provide a path to your project's tsconfig.json. **This setting is required if you want to use rules which require type information.**
+
+```js
+module.exports = {
+  parserOptions: {
+    project: './tsconfig.json',
+  },
+}
+```
+
 ## Prettier Support
 
 Prettier is a code formatter, which supports not only JavaScript but also other languages.
