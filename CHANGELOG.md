@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.7](https://github.com/macchiitaka/eslint-config/compare/v0.0.6...v0.0.7) (2021-02-17)
+
+
+### Bug Fixes
+
+* **eslint:** tweak rules ([2c89b05](https://github.com/macchiitaka/eslint-config/commit/2c89b0524db78f3d21384df0c2abbaf05b178d1d))
+* **preset:** fix typescript preset ([8b44569](https://github.com/macchiitaka/eslint-config/commit/8b44569e38b2ec8820d04951f89f52ea9b3857e8))
+* **unicorn:** tweak rules ([870e0cd](https://github.com/macchiitaka/eslint-config/commit/870e0cd964e6038ee0fe6da69559c1cfaf66d6ab))
+
 ### [0.0.6](https://github.com/macchiitaka/eslint-config/compare/v0.0.5...v0.0.6) (2021-02-17)
 
 
