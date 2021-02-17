@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.3](https://github.com/macchiitaka/eslint-config/compare/v0.0.2...v0.0.3) (2021-02-17)
+
+
+### Bug Fixes
+
+* **react:** fix rule name ([6a220b6](https://github.com/macchiitaka/eslint-config/commit/6a220b6bb3e34de8f36c152939c3a2dd3007c9e0))
+* **typescript:** disable @typescript-eslint/explicit-module-boundary-types ([ddf450b](https://github.com/macchiitaka/eslint-config/commit/ddf450bdbe06bd52b07ae745797082f0512ec97c))
+
 ### [0.0.2](https://github.com/macchiitaka/eslint-config/compare/v0.0.1...v0.0.2) (2021-02-17)
 
 
