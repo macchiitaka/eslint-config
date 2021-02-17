@@ -1,0 +1,64 @@
+{
+  "name": "@takamachi/eslint-config",
+  "version": "0.0.1",
+  "description": "ESLint rules for macchiitaka",
+  "keywords": [
+    "ESLint",
+    "Prettier",
+    "TypeScript",
+    "React",
+    "Vue.js"
+  ],
+  "homepage": "https://github.com/macchiitaka/eslint-config#readme",
+  "bugs": {
+    "url": "https://github.com/macchiitaka/eslint-config/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/macchiitaka/eslint-config.git"
+  },
+  "license": "MIT",
+  "author": "macchiitaka <zxcvbnmtacashi@gmail.com>",
+  "main": "index.js",
+  "scripts": {
+    "fmt": "run-p fmt:**",
+    "fmt:js": "run-s fmt:js:eslint fmt:js:prettier",
+    "fmt:js:eslint": "eslint **/*.js --fix --cache",
+    "fmt:js:prettier": "prettier --write --tab-width 2 '**/*.js'",
+    "fmt:json": "prettier --write --tab-width 2 '**/*.json'",
+    "fmt:md": "prettier --write --tab-width 2 '**/*.md'",
+    "fmt:package-json": "sort-package-json",
+    "lint": "run-p lint:**",
+    "lint:eslint": "eslint **/*.js --cache",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.15.1",
+    "@typescript-eslint/parser": "^4.15.1",
+    "babel-eslint": "^10.1.0",
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-react": "^7.22.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "eslint-plugin-unicorn": "^28.0.1"
+  },
+  "devDependencies": {
+    "@takamachi/prettier-config": "^1.0.1",
+    "@types/eslint": "^7.2.6",
+    "@types/eslint-plugin-prettier": "^3.1.0",
+    "@types/react": "^17.0.2",
+    "eslint": "^7.20.0",
+    "npm-run-all": "^4.1.5",
+    "react": "^17.0.1",
+    "sort-package-json": "^1.48.1",
+    "typescript": "^4.0.0"
+  },
+  "peerDependencies": {
+    "eslint": "^7.20.0",
+    "typescript": "^3.3.3333 || ^4.0.0"
+  }
+}
