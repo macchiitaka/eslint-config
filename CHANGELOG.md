@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.5](https://github.com/macchiitaka/eslint-config/compare/v0.0.4...v0.0.5) (2021-02-17)
+
+
+### Bug Fixes
+
+* **typescript:** tweak option for @typescript-eslint/method-signature-style ([f6f4976](https://github.com/macchiitaka/eslint-config/commit/f6f4976a0b3fd6371f2021c693df6114997a24fd))
+
 ### [0.0.4](https://github.com/macchiitaka/eslint-config/compare/v0.0.3...v0.0.4) (2021-02-17)
 
 
