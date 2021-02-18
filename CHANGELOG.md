@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.12](https://github.com/macchiitaka/eslint-config/compare/v0.0.11...v0.0.12) (2021-02-18)
+
+
+### Features
+
+* **typescript:** disable @typescript-eslint/no-confusing-void-expression ([3cdd08c](https://github.com/macchiitaka/eslint-config/commit/3cdd08c8853eae122072aa64f0534e4667e6fb85))
+
 ### [0.0.11](https://github.com/macchiitaka/eslint-config/compare/v0.0.10...v0.0.11) (2021-02-18)
 
 
