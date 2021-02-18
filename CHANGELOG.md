@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.11](https://github.com/macchiitaka/eslint-config/compare/v0.0.10...v0.0.11) (2021-02-18)
+
+
+### Features
+
+* **prettier:** remove eslint-plugin-prettier ([4216b37](https://github.com/macchiitaka/eslint-config/commit/4216b3797f722720352360f1149ca33d20ac7e6d))
+
 ### [0.0.10](https://github.com/macchiitaka/eslint-config/compare/v0.0.9...v0.0.10) (2021-02-18)
 
 
