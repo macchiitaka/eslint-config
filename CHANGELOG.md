@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.10](https://github.com/macchiitaka/eslint-config/compare/v0.0.9...v0.0.10) (2021-02-18)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-unicorn to ^28.0.2 ([fab9eab](https://github.com/macchiitaka/eslint-config/commit/fab9eab2a121ce543df4392a5d9fcd9f776d0f6a))
+
 ### [0.0.9](https://github.com/macchiitaka/eslint-config/compare/v0.0.8...v0.0.9) (2021-02-17)
 
 
