@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.13](https://github.com/macchiitaka/eslint-config/compare/v0.0.12...v0.0.13) (2021-02-21)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-config-prettier to v8 ([14cd180](https://github.com/macchiitaka/eslint-config/commit/14cd1807ebcec4e6d3745a2340b14ad91424f943))
+
 ### [0.0.12](https://github.com/macchiitaka/eslint-config/compare/v0.0.11...v0.0.12) (2021-02-18)
 
 
