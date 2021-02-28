@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.16](https://github.com/macchiitaka/eslint-config/compare/v0.0.15...v0.0.16) (2021-02-28)
+
+
+### Features
+
+* **rules:** replace warn with error ([df70a11](https://github.com/macchiitaka/eslint-config/commit/df70a11946beac6b1e6c31d6fc4c6841842eecc0))
+
 ### [0.0.15](https://github.com/macchiitaka/eslint-config/compare/v0.0.14...v0.0.15) (2021-02-28)
 
 
