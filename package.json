@@ -24,9 +24,9 @@
     "fmt": "run-s fmt:prettier fmt:package-json fmt:eslint",
     "fmt:prettier": "prettier --write --tab-width 2 '**/*.{js,jsx,ts,tsx,json,md,yml}'",
     "fmt:package-json": "sort-package-json",
-    "fmt:eslint": "eslint **/*.js --cache --fix",
+    "fmt:eslint": "eslint **/*.js --cache --cache-strategy content --fix",
     "lint": "run-p lint:**",
-    "lint:eslint": "eslint **/*.js --cache",
+    "lint:eslint": "eslint **/*.js --cache --cache-strategy content",
     "release": "standard-version",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
