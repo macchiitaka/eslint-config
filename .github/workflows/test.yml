@@ -25,7 +25,7 @@ jobs:
         uses: reviewdog/action-eslint@v1
         with:
           #          reporter: github-pr-review # Change reporter.
-          eslint_flags: 'src/'
+          eslint_flags: 'lib/'
           github_token: ${{ secrets.GITHUB_TOKEN }}
       - name: Lint
         run: npm run lint
