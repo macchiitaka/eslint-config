@@ -1,6 +1,0 @@
-name: Hello, World
-author: macchiitaka<zxcvbnmtacashi@gmail.com>
-description: Desc
-runs:
-  using: node12
-  main: index.js
