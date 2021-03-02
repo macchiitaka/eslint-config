@@ -2,4 +2,4 @@ name: Hello, World
 description: Desc
 runs:
   using: node12
-  main: sample.js
+  main: index.js
