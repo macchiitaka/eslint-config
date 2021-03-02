@@ -13,7 +13,7 @@ jobs:
         with:
           node-version: 14
       - name: Sample
-        uses: ./
+        uses: ./.github/actions/hello
       - name: Install npm
         run: npm i npm -g
       - name: Install dependencies
