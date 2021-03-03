@@ -6,8 +6,9 @@ jobs:
     name: Lint
     strategy:
       matrix:
+        os: [ubuntu-18.04, windows-latest, macos-latest]
         node: [10, 12, 14]
-    runs-on: ubuntu-18.04
+    runs-on: ${{ matrix.os }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
