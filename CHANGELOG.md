@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.18](https://github.com/macchiitaka/eslint-config/compare/v0.0.17...v0.0.18) (2021-03-03)
+
+
+### Bug Fixes
+
+* **deps:** update linters to ^4.16.1 ([e50c012](https://github.com/macchiitaka/eslint-config/commit/e50c0128a4a39f3eb767887f837968fb18c38a58))
+
 ### [0.0.17](https://github.com/macchiitaka/eslint-config/compare/v0.0.16...v0.0.17) (2021-03-02)
 
 
