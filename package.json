@@ -40,8 +40,7 @@
     "eslint-plugin-react": "^7.22.0",
     "eslint-plugin-react-hooks": "^4.2.0",
     "eslint-plugin-simple-import-sort": "^7.0.0",
-    "eslint-plugin-unicorn": "^28.0.2",
-    "lodash": "^4.17.21"
+    "eslint-plugin-unicorn": "^28.0.2"
   },
   "devDependencies": {
     "@takamachi/prettier-config": "^1.0.1",
