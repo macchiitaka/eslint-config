@@ -1,2 +1,3 @@
-// @TODO
-module.exports = {}
+module.exports = {
+  extends: ['../lib/base.js', '../lib/vue.js'],
+}
