@@ -52,7 +52,7 @@ $ npm install --save-dev eslint @takamachi/eslint-config
 ```js
 module.exports = {
   extends: '@takamachi',
-}
+};
 ```
 
 **Currently, we adopt that `indent` rule is 2 spaces and having indentation in `switch case`.
@@ -67,7 +67,7 @@ module.exports = {
     // 'indent': ['warn', 2, { "SwitchCase": 1 }],
     indent: ['warn', 4, { SwitchCase: 0 }],
   },
-}
+};
 ```
 
 ## Support rule set
@@ -111,7 +111,7 @@ module.exports = {
   parserOptions: {
     project: './tsconfig.json',
   },
-}
+};
 ```
 
 ## Prettier Support
