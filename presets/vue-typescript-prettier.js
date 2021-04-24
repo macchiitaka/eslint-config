@@ -6,4 +6,4 @@ module.exports = {
     '../lib/vue-typescript.js',
     '../lib/prettier.js',
   ],
-}
+};

@@ -5,4 +5,4 @@ module.exports = {
     '../lib/typescript.js',
     '../lib/vue3-typescript.js',
   ],
-}
+};
