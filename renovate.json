@@ -1,3 +1,13 @@
 {
-  "extends": ["github>macchiitaka/renovate-config", ":assignee(macchiitaka)"]
+  "extends": ["github>macchiitaka/renovate-config", ":assignee(macchiitaka)"],
+  "hostRules": [
+    {
+      "baseUrl": "https://npm.pkg.github.com/techtouch-inc/",
+      "hostType": "npm",
+      "encrypted": {
+        "token": "PSfjuojBBFRYer+A4K95+tV53ufF78wz3UQP08WFgnmIbHOpYz8KtVwIAiUlCv0L9v9WCY2MNSCkA06ucKpJOz1IAj+qwVEqHc5rFoeL6YuEVeBfrvZgRher2m2ZXSs40Sq2o2c4MLqidB0T8AfJzZJw96Ece7TPff48WHbuvDTtvtD5T+HNXOJV4d3SmRDA0YoHIXao9qrfzLh1gLzy/BplAcP0TeTTJnhCdudJYgvvAPKPtdjcHgSBKuh6x9tI0ScNImCrpLBVw8Bm+kT2E6ag8GK7d7ABsPkCX26Icu3CjQEcuaMjHBTF5u2I/POXMXoqanA2p/dpQEo+MTeQUA=="
+      }
+    }
+  ],
+  "npmrc": "@techtouch-inc:registry=https://npm.pkg.github.com/orgName/"
 }
