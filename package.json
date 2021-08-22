@@ -30,10 +30,10 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.29.1",
-    "@typescript-eslint/parser": "^4.29.1",
+    "@typescript-eslint/eslint-plugin": "^4.29.2",
+    "@typescript-eslint/parser": "^4.29.2",
     "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-import": "^2.24.0",
+    "eslint-plugin-import": "^2.24.1",
     "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-react": "^7.24.0",
@@ -45,11 +45,11 @@
   "devDependencies": {
     "@takamachi/prettier-config": "^1.1.0",
     "@types/eslint": "^7.28.0",
-    "@types/react": "^17.0.17",
+    "@types/react": "^17.0.19",
     "eslint": "^7.32.0",
     "npm-run-all": "^4.1.5",
     "react": "^17.0.2",
-    "semantic-release": "^17.4.4",
+    "semantic-release": "^17.4.5",
     "sort-package-json": "^1.50.0",
     "typescript": "^4.3.5"
   },
