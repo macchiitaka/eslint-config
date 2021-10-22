@@ -59,17 +59,17 @@
     "typescript": "^3.3.3333 || ^4.0.0"
   },
   "engines": {
-    "node": ">=10",
+    "node": ">=12",
     "npm": ">=6",
     "yarn": ">=1"
   },
+  "packageManager": "npm@8.1.0",
   "release": {
     "branches": [
       "main"
     ]
   },
   "volta": {
-    "node": "16.0.0",
-    "yarn": "1.22.16"
+    "node": "16.12.0"
   }
 }
