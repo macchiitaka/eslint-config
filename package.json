@@ -41,7 +41,7 @@
     "eslint-plugin-simple-import-sort": "^7.0.0",
     "eslint-plugin-unicorn": "^37.0.1",
     "eslint-plugin-unused-imports": "^1.1.5",
-    "eslint-plugin-vue": "^7.19.1"
+    "eslint-plugin-vue": "^7.20.0"
   },
   "devDependencies": {
     "@takamachi/prettier-config": "^1.1.0",
