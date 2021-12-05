@@ -62,7 +62,7 @@
     "npm": ">=6",
     "yarn": ">=1"
   },
-  "packageManager": "npm@8.1.4",
+  "packageManager": "npm@8.2.0",
   "release": {
     "branches": [
       "main"
