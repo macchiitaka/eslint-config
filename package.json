@@ -62,7 +62,7 @@
     "npm": ">=6",
     "yarn": ">=1"
   },
-  "packageManager": "npm@8.5.1",
+  "packageManager": "npm@8.5.2",
   "release": {
     "branches": [
       "main"
@@ -70,6 +70,6 @@
   },
   "volta": {
     "node": "16.14.0",
-    "npm": "8.5.1"
+    "npm": "8.5.2"
   }
 }
