@@ -22,7 +22,7 @@
   "main": "index.js",
   "scripts": {
     "fmt": "run-s fmt:prettier fmt:package-json fmt:eslint",
-    "fmt:prettier": "prettier --write --tab-width 2 '**/*.{js,jsx,ts,tsx,json,md,yml}'",
+    "fmt:prettier": "prettier --write --tab-width 2 --cache --cache-strategy content '**/*.{js,jsx,ts,tsx,json,md,yml}'",
     "fmt:package-json": "sort-package-json",
     "fmt:eslint": "eslint **/*.js --cache --cache-strategy content --fix",
     "lint": "run-p lint:**",
@@ -51,7 +51,7 @@
     "@takamachi/prettier-config": "^1.1.0",
     "@types/eslint": "^8.4.6",
     "@types/react": "^18.0.21",
-    "eslint": "^8.23.1",
+    "eslint": "^8.24.0",
     "npm-run-all": "^4.1.5",
     "react": "^18.2.0",
     "semantic-release": "^19.0.5",
