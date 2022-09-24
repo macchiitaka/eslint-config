@@ -22,7 +22,7 @@
   "main": "index.js",
   "scripts": {
     "fmt": "run-s fmt:prettier fmt:package-json fmt:eslint",
-    "fmt:prettier": "prettier --write --tab-width 2 '**/*.{js,jsx,ts,tsx,json,md,yml}'",
+    "fmt:prettier": "prettier --write --tab-width 2 --cache --cache-strategy content '**/*.{js,jsx,ts,tsx,json,md,yml}'",
     "fmt:package-json": "sort-package-json",
     "fmt:eslint": "eslint **/*.js --cache --cache-strategy content --fix",
     "lint": "run-p lint:**",
