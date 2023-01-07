@@ -10,9 +10,9 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
-      - name: Set Node.js 16
+      - name: Set Node.js
         uses: actions/setup-node@v3.6.0
         with:
-          node-version: 16
+          node-version-file: '.node-version'
       - name: Audit
         run: npm audit
