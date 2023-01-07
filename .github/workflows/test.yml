@@ -1,5 +1,5 @@
 name: Test
-on: [push, pull_request]
+on: [pull_request]
 
 jobs:
   lint:
@@ -7,7 +7,7 @@ jobs:
     strategy:
       matrix:
         os: [ubuntu-latest]
-        node: [14, 16]
+        node: [14, 16, 18]
     runs-on: ${{ matrix.os }}
     steps:
       - name: Checkout repository
