@@ -6,7 +6,7 @@ jobs:
     name: Lint
     strategy:
       matrix:
-        os: [ubuntu-latest]
+        os: [ubicloud]
         node: [16, 18]
     runs-on: ${{ matrix.os }}
     steps:
