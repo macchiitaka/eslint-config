@@ -51,7 +51,7 @@
     "@takamachi/prettier-config": "^1.1.0",
     "@types/eslint": "^8.56.9",
     "@types/react": "^18.2.77",
-    "eslint": "^8",
+    "eslint": "^8.0.1",
     "npm-run-all2": "^6.1.2",
     "react": "^18.2.0",
     "semantic-release": "^23.0.8",
