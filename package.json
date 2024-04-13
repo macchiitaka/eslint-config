@@ -35,8 +35,8 @@
     ]
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^6.21.0",
-    "@typescript-eslint/parser": "^6.21.0",
+    "@typescript-eslint/eslint-plugin": "^7.6.0",
+    "@typescript-eslint/parser": "^7.6.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-import": "^2.29.1",
     "eslint-plugin-jsx-a11y": "^6.8.0",
@@ -44,17 +44,17 @@
     "eslint-plugin-react": "^7.34.1",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-simple-import-sort": "^12.0.0",
-    "eslint-plugin-unicorn": "^51.0.1",
+    "eslint-plugin-unicorn": "^52.0.0",
     "eslint-plugin-unused-imports": "^3.1.0"
   },
   "devDependencies": {
     "@takamachi/prettier-config": "^1.1.0",
     "@types/eslint": "^8.56.6",
     "@types/react": "^18.2.73",
-    "eslint": "^8.57.0",
+    "eslint": "^8",
     "npm-run-all2": "^6.1.2",
     "react": "^18.2.0",
-    "semantic-release": "23.0.6",
+    "semantic-release": "^23.0.8",
     "sort-package-json": "^2.8.0",
     "typescript": "^5.4.3"
   },
@@ -64,7 +64,7 @@
   },
   "packageManager": "npm@10.5.0",
   "engines": {
-    "node": ">=16",
+    "node": ">=18",
     "npm": ">=6",
     "yarn": ">=1"
   }
